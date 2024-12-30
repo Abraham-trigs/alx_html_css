@@ -1,193 +1,111 @@
 
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: 100%;
 }
+
+ /* background setup */
+
 body {
     background-image: url(Object.png);
-    background-size: 100%;
     background-repeat: no-repeat;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px;    
-    
-}
- .link a {
-   color: white;
-   text-decoration: none;
-   text-transform: capitalize;
-   font-size: bold;
-   margin: 30px;
- }
-    
-   
-.mid-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 90px;
-}
-
-.head-title {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 7rem;
-    text-align: center;
-    color: white;
-    margin-top: 40px;
-    margin: 3px;
-}
-#mid-link a {
-    text-decoration: none;
-    font-family: Helvetica, sans-serif;
-    color: white;
-    margin: 30px;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-.button {
-    color: #ffffff;
-    background-color: rgb(194, 113, 355);
-    width: 150px;
-    height: 35px;
-    border-radius: 20px;
-    border: none; 
-    font-size: 10px;
-    margin: 30px;
-}
-
-.pros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    
-}
-.learn {
-    color: white;
-    font-size: 1.2rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
-    font-size: 2rem;
-    
-}
-.learn-style {
-    color: rgb(194, 113, 355);
-    font-weight: bold;
-}
-
-.pros-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    gap: 90px;
-    margin: 130px;
+    background-size: contain;    
     
 }
 
-.name-tag {
-    font-weight: bolder;
-}
-.quote {
-    display: flex; 
-    align-items: center; 
-    flex-direction: row;
-    gap: 20px; 
-    padding: 20px; 
-    background-color: rgb(194, 113, 355);   
-     
-}
-.presenter {
-    margin: 50px;
-}
-.quote-text {
-    flex-direction: column;
-    color: white;
-    font-size: 1.2rem;
-}
-.video-cap {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
-    text-align: center;
-    font-size: 3rem; 
-}
-.popular-tag {
-    color: rgb(194, 113, 355);
-    font-weight: bolder;
-}
+/* head Positioning and alignment */
 
-.video-authors {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .link, .logo {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 80px;
-}
-.first-video {
-    position: relative;
-    display: block;
-    margin: 50px;
-}
-.thumbnail {
-    display: block;
-}
-.play {
-    position: absolute;
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 50px;
-}
-.vid-text {
-margin-top: 10px;
-}
-.rating-box {
+    flex-direction: row-reverse;
+    margin: 40px;
+    }
 
-}
-.rating-box {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-.rating-name {
-    display: flex;
-    flex-direction: column;
-}
-.pic {
-    width: 40px;
-    height: auto;
-}
+    .link{
+    gap: 40px;
+    }
 
-.videos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+/* head styling */
+    nav span a{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    nav span a.pricing:hover{
+        font-size: 1.4rem;
+        color: rgb(194, 113, 355);
+    }
+
+    nav span a.login:hover{
+        font-size: 1.4rem;
+        color: rgb(194, 113, 355);
+        
+    }
+
+    nav span a.courses:hover{
+        font-size: 1.4rem;
+        color: rgb(194, 113, 355);
+    }
+
+
+/* body positioning and styling*/
+
+    .mid-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 7rem;
+        text-align: center;
+    }
+
+    .middle-links {
+
+        /* middle-link positioning */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 140px;
+    }
+        /* <a> tag within ".middle-links" styling */
+    .middle-links div ul a{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        font-size: 2rem;
+        margin: 30px;
+    }
+      /* <ul> tag within ".middle-links" Positioning and Alignment   */
+    .middle-links div ul{
+        display: flex;
+        align-items: center
+    }
+    .register-button {
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgb(194, 113, 355);
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        font-size: 12px;
+    }
+
     
-}
-.first-video {
-    flex-direction: column;
-}
-.free {
 
-    font-size: 3rem;
+    
+  
 
-}
-.membership {
-    display: flex; 
-    flex-direction: column;
-}
 
-.members-box {
-    background-color: rgb(9, 1, 43);
-}
-#member-color {
-    color: solid white;
-}
