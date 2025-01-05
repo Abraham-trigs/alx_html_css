@@ -54,8 +54,8 @@ body {
 }
 
 
-# Resets margins and padding, ensuring consistent layout across browsers.
-# Applies a background image to the body of the page.  
+* Resets margins and padding, ensuring consistent layout across browsers.
+* Applies a background image to the body of the page.  
 
 # 2. Header Styles
 header {
@@ -82,8 +82,8 @@ header {
     cursor: pointer;
 }
 
-# The header uses flexbox for layout and positioning of the logo and navigation links.
-# Hover effects are applied to the logo and navigation items.
+* The header uses flexbox for layout and positioning of the logo and navigation links.
+* Hover effects are applied to the logo and navigation items.
 
 # 3 Main Content Section
 .mid-title {
@@ -105,7 +105,7 @@ header {
     text-shadow: 0px 0px 5px rgba(60, 60, 60, 0.611);
 }
 
-# The title section is styled to be large, centered, and responsive to user interaction with hover effects.
+* The title section is styled to be large, centered, and responsive to user interaction with hover effects.
 
 # 4 Video Gallery
 .video-1 {
@@ -125,8 +125,8 @@ header {
     transform: translate(-50%, -50%);
 }
 
-# The video section uses inline-block and position: relative to manage video thumbnails and play buttons.
-# Hover effects are applied to video thumbnails to make them interactive.
+* The video section uses inline-block and position: relative to manage video thumbnails and play buttons.
+* Hover effects are applied to video thumbnails to make them interactive.
 
 # 5 Footer Styles
 .contact {
@@ -137,17 +137,17 @@ header {
     color: white;
 }
 
-# The footer section is styled for a clean and simple layout, ensuring proper alignment of the contact information.
+* The footer section is styled for a clean and simple layout, ensuring proper alignment of the contact information.
 
 
 # Future Improvements
-# Accessibility: 
+* Accessibility: 
 Add ARIA labels and roles to enhance accessibility for screen readers.
-# JavaScript Interactivity: 
+* JavaScript Interactivity: 
 Introduce JavaScript to make the website more dynamic, such as for form validation or interactive elements.
-# Performance Optimization: 
+* Performance Optimization: 
 Compress images and optimize assets for faster page load times.
-# License
+* License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgements
