@@ -506,6 +506,7 @@ body {
 
         .free-button:hover{
             font-weight: bold;
+            cursor: pointer;
 
 
         }
