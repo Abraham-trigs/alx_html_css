@@ -16,7 +16,6 @@ This project is a web-based application designed to provide student with the nec
 - **HTML5**: Structure and content layout
 - **CSS3**: Styling, animations, and responsiveness
 - **Flexbox & Grid**: Used for alignment and positioning elements
-<!-- - **JavaScript**: For interactive elements (if applicable) -->
 
 ## Getting Started
 
