@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* HEADER SECTION */
+.header-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(0.71);
+    margin-top: 40px;
+    gap: 200px;
+}
+
+header {
+    align-items: center;
+}
+
+header div span a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/* .......................................... */
+
+/* MID SECTION */
+.mid-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top: 300px;
+}
+
+.mid-text-cap {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+button {
+    display: grid;
+    /* flex-direction: column; */
+    place-content: center;
+}
