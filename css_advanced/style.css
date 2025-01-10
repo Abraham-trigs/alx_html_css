@@ -572,18 +572,19 @@ body {
             margin-bottom: 15px;
         }
 
-
-        footer {
-            background-color: rgb(3, 10, 36);
-            padding-top: 50px;
-            padding-bottom: 30px;
-
-        }
-        footer  div span a {
-            margin: 10px;
-            /* gap: 20px; */
-        }
         footer p {
-            color: rgb(92, 92, 142);
+            color: grey;
             text-align: center;
+            padding-bottom: 30px;
         }
+    
+          footer {
+            background-color: rgb(3, 10, 36);
+            padding-top: 70px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+          }
+
+       
+
+       
